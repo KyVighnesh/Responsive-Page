@@ -1,0 +1,278 @@
+body {
+    background-color: rgb(39, 38, 38);
+    width: 100%;
+}
+
+
+#page-container {
+    height: 92vh;
+    width: 98vw;
+    background-color: black;
+    border-right: 2px solid white;
+    border-top: 1px solid white;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#left-view-container {
+    background-color: rgb(39, 38, 38);
+    width: 40vw;
+    height: inherit;
+    
+    
+
+
+}
+
+
+#logo-image {
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+#logo-image img {
+    width: 100%;
+
+
+}
+
+#details-div {
+    width: 23vw;
+    margin-top: 40px;
+    margin: auto;
+    padding-top: 35px;
+
+}
+
+
+
+#sign-in-button {
+    background-color: rgb(47, 117, 247);
+    width: 22.45vw;
+    height: 7vh;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    font-size: large;
+
+}
+.label-blocks {
+    background-color: transparent;
+    border: 1px solid rgb(179, 173, 173);
+    width: 22vw;
+    height: 5vh;
+    margin-top: -10px;
+}
+
+#label1 {
+    font-weight: 100;
+    color: rgb(179, 173, 173);
+    
+    
+    
+    
+    
+
+
+
+}
+
+#label2 {
+    font-weight: 100;
+    color: rgb(179, 173, 173);
+    text-align: left;
+}
+
+
+#forgot-sign-new {
+    width: 50hw;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#forgot-sign-new form a {
+    text-decoration: none;
+    color: rgb(1, 81, 201);
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#create-button {
+    text-align: center;
+    
+}
+
+#Create {
+    background-color: rgb(58, 47, 47);
+    width: 22.45vw;
+    height: 7vh;
+    border: none;
+    margin-top: 20px;
+    color: rgb(179, 173, 173);
+    font-size: large;
+    font-weight: 50;
+}
+
+#right-view-container {
+    background-color: black;
+    height: inherit;
+    width: 58vw;
+    
+}
+
+
+
+
+#right-view-container #right-footer-image img {
+    width: 100%;
+}
+
+
+#right-header-image {
+    width: 50%;
+    padding-top: 100px;
+    margin: auto;
+    
+
+
+}
+
+#right-header-image img {
+    width: 100%;
+}
+
+#hidden {
+    display: none;
+}
+
+/* Section for Tablet View  ( exact view port is not available hence added a range according to my research*/
+
+
+    @media screen and (min-width: 600px) and (max-width: 1000px) {
+
+       #right-footer-image {
+        display: none;
+       }
+
+       #hidden {
+        display: block;
+        height: 60%;
+        width: 40%;
+        margin: auto;
+        padding-top: 20px;
+        
+
+       }
+
+       #hidden img {
+        width: 100%;
+       }
+
+       #right-header-image {
+        width: 80%;
+        margin: auto;
+        margin-top: -30px;
+
+       }
+
+       #right-header-image img {
+        width: 100%;
+    }
+
+    #page-container {
+        height: 80vh;
+        width: 100vw;
+        border: none;
+
+    }
+
+    #right-view-container {
+        margin-right: 0;
+        width: 58vw;
+        position: relative;
+        right: 0px;
+    }
+
+
+}
+
+/* Section for Mobile view ( exact view port is not available hence added a range according to my research */
+
+@media screen and (min-width: 100px) and (max-width: 550px) {
+
+    #left-view-container {
+        width: 100%;
+        background-color: rgb(39, 38, 38);
+
+    }
+
+    #right-view-container {
+        display: none;
+    }
+
+    #page-container {
+        border: none;
+    }
+
+    .label-blocks {
+        background-color: transparent;
+        border: 1px solid rgb(179, 173, 173);
+        width: 50vw;
+        height: 5vh;
+        margin-top: -10px;
+    }
+
+    #details-div {
+        width: 50vw;
+        margin-top: 40px;
+        margin: auto;
+        padding-top: 35px;
+    
+    }
+
+    #sign-in-button {
+        background-color: rgb(47, 117, 247);
+        width: 51vw;
+        height: 7vh;
+        border: none;
+        margin-top: 20px;
+        color: white;
+        font-size: large;
+    
+    
+
+    
+
+}
+
+#Create {
+    background-color: rgb(58, 47, 47);
+    width: 51vw;
+    height: 7vh;
+    border: none;
+    margin-top: 20px;
+    color: rgb(179, 173, 173);
+    font-size: large;
+    font-weight: 50;
+}
+
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
